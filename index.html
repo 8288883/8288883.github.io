@@ -12,27 +12,24 @@
             background-color: #f5f5f5;
         }
         .category { 
-            margin-bottom: 30px; 
+            margin-bottom: 20px; 
             background: white;
             padding: 15px;
             border-radius: 12px;
             box-shadow: 0 2px 8px rgba(0,0,0,0.1);
         }
-        .category h2 { 
-            background: #eee; 
-            padding: 10px; 
+        .category a { 
+            display: block;
+            font-size: 20px;
+            font-weight: bold;
+            color: #333;
+            text-decoration: none;
+            padding: 10px;
             border-radius: 8px;
-            margin-top: 0;
+            transition: background 0.2s;
         }
-        img { 
-            max-width: 200px; 
-            margin: 8px; 
-            border-radius: 8px; 
-            box-shadow: 0 1px 4px rgba(0,0,0,0.15);
-            transition: transform 0.2s;
-        }
-        img:hover {
-            transform: scale(1.05);
+        .category a:hover {
+            background-color: #eee;
         }
         h1 {
             text-align: center;
@@ -44,17 +41,11 @@
     <h1>📸 我的图片分类站</h1>
     
     <div class="category">
-        <h2>🌿 自然风景</h2>
-        <img src="images/nature/mmexport1774690119374..jpg" alt="自然风景1">
-        <img src="images/nature/mmexport1774690136070..jpg" alt="自然风景2">
-        <img src="images/nature/mmexport1774690169891..jpg" alt="自然风景3">
+        <a href="nature.html">🌿 自然风景</a>
     </div>
 
     <div class="category">
-        <h2>🐱 动物</h2>
-        <img src="images/animals/mmexport1774690452565..jpg" alt="动物1">
-        <img src="images/animals/mmexport1774690462940..jpg" alt="动物2">
-        <img src="images/animals/mmexport1774690486252..jpg" alt="动物3">
+        <a href="animals.html">🐱 动物</a>
     </div>
 </body>
 </html>
